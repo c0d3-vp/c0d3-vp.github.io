@@ -115,3 +115,9 @@ section {
   background: #000;
   color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
