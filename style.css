@@ -34,24 +34,14 @@ header {
 }
 
 main {
-  margin: 5% 25%;
+  margin: 0 25% 5% 25%;
 }
 
 h1 {
-  font-size: 27px;
+  font-size: 3.9vw;
   text-align: center;
   font-style: Italic;
   color: #040404;
-}
-  
-h4 {
-  list-style-type: none;
-  margin: 5px 0;
-  padding: 3px 10px;
-  background-color: #040404;
-  font-size: 17px;
-  font-style: Italic;
-  color: #fffcfc;
 }
 
 a {
@@ -78,15 +68,10 @@ a:hover, a:active {
   display: inline-block;
 }
 
-h2 {
-  font-style: Italic;
-  color: #040404;
-}
-
 p {
   text-align: justify;
   font-family: 'Krona One', sans-serif;
-  font-size: 13.5px;
+  font-size: 2vmin;
 }
 
 h3 {
@@ -117,7 +102,28 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-    [class*="col-"] {
-        width: 100%;
+    main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .front {
+      height: initial;
+    }
+    .side {
+      width: 75%;
+    }
+    .container {
+      position: absolute;
+      width: 100%;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    p {
+      font-size: 4vmin;
+    }
+    .ui-accordion-content {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
 }
