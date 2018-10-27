@@ -107,7 +107,7 @@ section {
         margin-right: 0;
     }
     .front {
-      height: initial;
+      height: initial !important;
     }
     .side {
       width: 75%;
