@@ -45,6 +45,9 @@ img.image {
    height:200px;
 }
 
-div {
-  text-align: center;
+div.image {
+  margin: 0 auto;
+  display: block;
+  width:150px;
+  height:200px;
 }
