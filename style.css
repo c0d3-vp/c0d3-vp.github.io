@@ -42,8 +42,9 @@ ul {
 img.image {
   margin: 0 auto;
   display: block;
-   width:125px;
-   height:233px;
+  width:125px;
+  height:233px;
+  border-radius: 5px;
 }
 
 .badge {
